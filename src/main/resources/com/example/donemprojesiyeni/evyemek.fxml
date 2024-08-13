@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.donemprojesiyeni.EvYemekControl">
+   <children>
+      <ImageView fitHeight="645.0" fitWidth="1226.0" layoutX="-149.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/girssayfa.jpg" />
+         </image>
+      </ImageView>
+      <GridPane fx:id="dataList" alignment="CENTER" layoutX="170.0" layoutY="151.0" prefHeight="289.0" prefWidth="676.0" />
+      <Button layoutX="771.0" layoutY="467.0" mnemonicParsing="false" onAction="#geri" prefHeight="34.0" prefWidth="74.0" style="-fx-background-radius: 15;" text="Geri" textFill="#ff8000">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="34.0" layoutY="34.0" mnemonicParsing="false" onAction="#evyemekEkle" prefHeight="42.0" prefWidth="122.0" style="-fx-background-radius: 15;" text="Ev Yemek Ekle" textFill="#ff8000">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

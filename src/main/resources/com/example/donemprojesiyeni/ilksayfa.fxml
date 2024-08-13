@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="449.0" prefWidth="607.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.donemprojesiyeni.main">
+   <children>
+      <ImageView fx:id="btnhisab" fitHeight="477.0" fitWidth="801.0" layoutX="-103.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/ilksayfa.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnevyemekleri" layoutX="355.0" layoutY="202.0" mnemonicParsing="false" onAction="#evyemekler" prefHeight="70.0" prefWidth="154.0" style="-fx-background-radius: 15;" text="Ev Yemekleri" />
+      <Button fx:id="btnBurger" layoutX="355.0" layoutY="107.0" mnemonicParsing="false" onAction="#burger" prefHeight="70.0" prefWidth="154.0" style="-fx-background-radius: 15;" text="Burger" />
+      <Button fx:id="btntatli" layoutX="355.0" layoutY="288.0" mnemonicParsing="false" onAction="#tatli" prefHeight="70.0" prefWidth="154.0" style="-fx-background-radius: 15;" text="Tatlı" />
+      <Button fx:id="btnicecek" layoutX="83.0" layoutY="288.0" mnemonicParsing="false" onAction="#icecek" prefHeight="70.0" prefWidth="154.0" style="-fx-background-radius: 15;" text="İçecek" />
+      <Button fx:id="btnhisap" layoutX="14.0" layoutY="22.0" mnemonicParsing="false" onAction="#hesap" prefHeight="37.0" prefWidth="138.0" style="-fx-background-radius: 15;" text="Hesap" />
+      <Button fx:id="btnDurum" layoutX="83.0" layoutY="202.0" mnemonicParsing="false" onAction="#durum" prefHeight="70.0" prefWidth="154.0" style="-fx-background-radius: 15;" text="Dürümler" />
+      <Button fx:id="btnadmingiris" layoutX="454.0" layoutY="22.0" mnemonicParsing="false" onAction="#admingiris" prefHeight="37.0" prefWidth="138.0" style="-fx-background-radius: 15;" text="Admin Giriş" />
+      <Button fx:id="btnPizza" layoutX="83.0" layoutY="107.0" mnemonicParsing="false" onAction="#pizza" prefHeight="70.0" prefWidth="154.0" style="-fx-background-radius: 15;" text="Pizza" />
+   </children>
+</AnchorPane>

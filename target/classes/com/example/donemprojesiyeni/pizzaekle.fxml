@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="764.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.donemprojesiyeni.PizzaControl">
+   <children>
+      <ImageView fitHeight="518.0" fitWidth="870.0" layoutY="-79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/m.jpg" />
+         </image>
+      </ImageView>
+      <HBox alignment="CENTER" layoutX="474.0" layoutY="164.0" prefHeight="50.0" spacing="10.0">
+         <children>
+            <Label prefHeight="24.0" prefWidth="96.0" text="Fiyat" textFill="#ff8000">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="PizaaFiyat" prefHeight="26.0" prefWidth="145.0" promptText="Fiyat" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="471.0" layoutY="114.0" prefHeight="50.0" prefWidth="254.0" spacing="10.0">
+         <children>
+            <Label prefHeight="25.0" prefWidth="98.0" text="İçeriği" textFill="#ff8000">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="PizaaAciklama" prefHeight="26.0" prefWidth="141.0" promptText="İçeriği" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="469.0" layoutY="64.0" prefHeight="50.0" spacing="10.0">
+         <children>
+            <Label prefHeight="29.0" prefWidth="104.0" style="-fx-background-color: #fffffff;" text="Pizza Adı" textFill="#ff8000">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="PizaaAdi" prefHeight="26.0" prefWidth="140.0" promptText="Pizaa Adı" />
+         </children>
+      </HBox>
+      <Button layoutX="608.0" layoutY="220.0" mnemonicParsing="false" onAction="#PizaaKaydet" prefHeight="26.0" prefWidth="100.0" style="-fx-background-color: #ff8000; -fx-background-radius: 15;" text="Kaydet" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <HBox alignment="CENTER" layoutX="629.0" layoutY="14.0" prefHeight="50.0" style="-fx-background-color: #ff8000;">
+         <children>
+            <Label text="pizza Ekle" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

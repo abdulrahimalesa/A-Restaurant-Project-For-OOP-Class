@@ -1,0 +1,3 @@
+T&&p&&10
+test&&test&&5
+Sütlaç&&süt&&20
